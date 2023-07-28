@@ -110,6 +110,7 @@ body {
     font-weight: 500;
     font-size: 56px;
     margin: 10px 0 50px 0;
+    line-height: 1;
     
   }
 
@@ -145,5 +146,6 @@ body {
  .container1-input p {
     color: #828282;
     font-size: 14px;
+    
 
  } 
