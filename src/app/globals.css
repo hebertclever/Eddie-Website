@@ -1,0 +1,149 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.navbar {
+    display: flex;
+    margin: 40px;
+    text-decoration: none;
+    
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-left: auto;
+    display: inline-flex;
+    font-size: 24px;
+    
+    
+   
+
+}
+
+.navbar ul li {
+    margin-left: 50px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .menu-icon.open .bar {
+    background-color: #000;
+  }
+  
+  .menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar ul {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .navbar-list.show {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+    
+  }
+
+  .container1-title {
+    margin-left: 15%;
+
+  }
+
+  .container1 h1 {
+    width: 540px;
+    color: #333;
+    font-weight: 500;
+    font-size: 56px;
+    margin: 10px 0 50px 0;
+    
+  }
+
+  .container1 p {
+    color: #2D9CDB;
+    font-size: 18px;
+  }
+
+  .container1 img {
+    border-radius: 30px;
+  }
+
+  .container1-card {
+    width: 400px;
+    margin-left: 15%;
+
+  }
+
+  .container1-card h1{
+    width: 360px;
+    margin-top: 50px;
+
+  }
+
+  .container1-card p {
+    margin-top: 5px;
+    color: #4F4F4F;
+    font-size: 18px;
+    width: 320px;
+
+  }
+
+ .container1-input p {
+    color: #828282;
+    font-size: 14px;
+
+ } 
